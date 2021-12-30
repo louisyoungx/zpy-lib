@@ -1,5 +1,5 @@
 import argparse
-from Build import execute, save
+from zpylib import run, build
 
 def main():
     parser = argparse.ArgumentParser(description='Execute Zpy program')
@@ -29,11 +29,13 @@ def main():
         buildFile_exists = True
 
     if buildFile_exists:
-        save(args.buildFile, args.to)
+        build(args.buildFile, args.to)
     elif file_exists:
-        execute(args.runFile)
+        run(args.runFile)
     else:
         print(args)
         raise Exception("Error: Could not execute or build")
 
-main()
+
+if __name__ == "__main__":
+    main()
