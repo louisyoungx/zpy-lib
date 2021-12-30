@@ -15,7 +15,7 @@ def main():
     args = parser.parse_args()
 
     try:
-        args.file
+        args.runFile
     except Exception as e:
         file_exists = False
     else:
@@ -31,5 +31,9 @@ def main():
     if buildFile_exists:
         save(args.buildFile, args.to)
     elif file_exists:
-        execute(args.file)
+        execute(args.runFile)
+    else:
+        print(args)
+        raise Exception("Error: Could not execute or build")
 
+main()
