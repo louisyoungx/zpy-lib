@@ -1,3 +1,3 @@
-from Build import execute, save
-from Compiler import Compiler
-from Grammar import grammar, operator, function
+from zpylib.Build import build, run
+from zpylib.Compiler import Compiler
+from zpylib.Grammar import grammar, operator, function
