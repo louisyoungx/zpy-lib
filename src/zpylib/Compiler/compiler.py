@@ -1,6 +1,6 @@
 import re
-from Grammar import function, grammar, operator
-from Lib import lib
+from zpylib.Grammar import function, grammar, operator
+from zpylib.Lib import lib
 
 class Compiler(object):
     
