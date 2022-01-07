@@ -21,17 +21,16 @@ class Lib(object):
             pyLib[info[key]] = key
         return pyLib, zpyLib
     
-    def load(self, file, target_type='py'):
+    def load(self, lib, target_type='py'):
         if target_type == 'py':
-            if file in self.zpyLib:
-                filename = self.zpyLib[file] + '.json'
+            if lib in self.zpyLib:
+                filename = self.zpyLib[lib] + '.json'
                 return self.loadFile(filename)
             else:
                 return None
         elif target_type == 'zpy':
-            print(file)
-            if file in self.pyLib:
-                filename = file + '.json'
+            if lib in self.pyLib:
+                filename = lib + '.json'
                 return self.loadFile(filename)
             else:
                 return None

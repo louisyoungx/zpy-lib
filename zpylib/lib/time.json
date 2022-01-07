@@ -8,27 +8,25 @@
         },
         {
             "name": "pthread_getcpuclockid",
-            "zpy": "获取线程cpu时钟id",
-            "args": [
-                {
-                    "name": "thread_id",
-                    "zpy": "线程id"
-                }
-            ]
+            "zpy": "获取线程cpu时钟id"
         },
         {
             "name": "clock_getres",
-            "zpy": "时钟分辨率",
-            "args": [
-                {
-                    "name": "clk_id",
-                    "zpy": "时钟id"
-                }
-            ]
+            "zpy": "时钟分辨率"
         },
         {
             "name": "time",
             "zpy": "时间"
+        }
+    ],
+    "args": [
+        {
+            "name": "thread_id",
+            "zpy": "线程id"
+        },
+        {
+            "name": "clk_id",
+            "zpy": "时钟id"
         }
     ]
 }
