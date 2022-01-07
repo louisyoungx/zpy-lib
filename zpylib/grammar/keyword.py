@@ -1,4 +1,4 @@
-# Reserved
+# Python保留字
 py_RESERVED = {
     'False': 'FALSE',
     'None': 'NONE',
@@ -38,6 +38,7 @@ py_RESERVED = {
     'yield': 'YIELD',
 }
 
+# Zpy保留字
 zpy_RESERVED = {
     '错': 'FALSE',
     '空': 'NONE',
@@ -77,6 +78,7 @@ zpy_RESERVED = {
     '生成': 'YIELD',
 }
 
+# 反转字典
 def invert_dict(d):
     return dict(zip(d.values(), d.keys()))
 

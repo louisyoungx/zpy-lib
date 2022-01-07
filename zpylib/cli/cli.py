@@ -1,3 +1,16 @@
+# 使用方法: cli.py [-h] {run,build} ...
+
+# 执行 Zpy 程序
+
+# 可选项:
+#   -h, --help   显示帮助信息
+
+# Zpy:
+#   {run,build}  Zpy 工具
+#     run        运行 Zpy 程序
+#     build      编译 Zpy 程序
+
+
 import argparse
 from zpylib import run, build
 

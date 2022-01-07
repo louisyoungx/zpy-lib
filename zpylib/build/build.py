@@ -1,7 +1,7 @@
 import os
 from zpylib.compiler import compiler
 
-
+# 传入文件名和目标格式，通过编译器编译后返回
 class Build(object):
 
     def __init__(self, filename, targetType):

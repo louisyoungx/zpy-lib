@@ -1,4 +1,4 @@
-from .info import info
+from .map import MAP
 from .lib import Lib
 
 lib = Lib()

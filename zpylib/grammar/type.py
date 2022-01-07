@@ -1,3 +1,5 @@
+# Lexer 需要用到的 token 类型对应的正则
+
 from .keyword import zpy_RESERVED, py_RESERVED
 
 t_NUMBER = r'-?(\d*\.)?\d+([eE][+\-]?\d+)?[jJ]?[lL]?'

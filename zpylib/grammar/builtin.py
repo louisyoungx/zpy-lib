@@ -1,3 +1,4 @@
+# Python内置函数
 builtInFunctions = {
     '符': 'chr',
     '二进制': 'bin',
@@ -95,6 +96,7 @@ builtInFunctions = {
     '__主函数__': '__main__',
 }
 
+# 反转字典
 def invert_dict(d):
     return dict(zip(d.values(), d.keys()))
 
