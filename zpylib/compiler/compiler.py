@@ -2,11 +2,13 @@ import re
 from zpylib.grammar.token import tokens, keywords
 from zpylib.grammar.type import *
 from zpylib.grammar.keyword import py_invert_RESERVED, zpy_invert_RESERVED
+from zpylib.grammar.builtin import builtInFunctions, invertBuiltInFunctions
 from zpylib.lib import lib
 import zpylib.ast.lexer as lex
 
+
 class Compiler(object):
-    
+
     def compile(self, file, targetType):
         self.file = file
         self.targetType = targetType
@@ -17,7 +19,7 @@ class Compiler(object):
             return self.zpyToPy(self.file)
         else:
             raise Exception(f"错误: 目标格式 {self.targetType} 只能是 py 或 zpy")
-    
+
     @staticmethod
     def pyToZpy(file):
         pyFile = file
@@ -34,19 +36,31 @@ class Compiler(object):
         pyFile = tokenHandler.tokenize()
         return pyFile
 
+
 class TokenHandler():
     def __init__(self, data, targetType):
         self.targetType = targetType
         if self.targetType not in ['py', 'zpy']:
             raise Exception(f"错误: 目标格式 {self.targetType} 只能是 py 或 zpy")
-        
+
         # Build the lexer
         self.lexer = lex.lex()
         # Give the lexer some input
         self.lexer.input(data)
         self.data = data
         self.positionOffset = 0
-        self.varMap = libCollection.map(data, targetType)
+        self.varMap = self.variableMap()
+
+    def variableMap(self):
+        varMap = {}
+        libMap = libCollection.map(self.data, self.targetType)
+        if self.targetType == 'py':
+            builtInMap = builtInFunctions
+        elif self.targetType == 'zpy':
+            builtInMap = invertBuiltInFunctions
+        varMap.update(libMap)
+        varMap.update(builtInMap)
+        return varMap
 
     def tokenize(self):
         # Tokenize
@@ -102,6 +116,11 @@ class LibCollection():
         for lib_item in libs:
             libInfo = lib.load(lib_item, targetType)
             if libInfo is not None:
+                key = libInfo['name']
+                value = libInfo['zpy']
+                if targetType == 'py':
+                    key, value = value, key
+                varMap[key] = value
                 for item in libInfo['functions']:
                     key = item['name']
                     value = item['zpy']

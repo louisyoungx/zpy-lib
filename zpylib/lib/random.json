@@ -1,0 +1,12 @@
+{
+    "name": "random",
+    "zpy": "随机",
+    "functions": [
+        {
+            "name": "randint",
+            "zpy": "随机数"
+        }
+    ],
+    "args": [
+    ]
+}

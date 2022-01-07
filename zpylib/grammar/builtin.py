@@ -1,4 +1,4 @@
-functions = {
+builtInFunctions = {
     '符': 'chr',
     '二进制': 'bin',
     '串': 'str',
@@ -98,4 +98,4 @@ functions = {
 def invert_dict(d):
     return dict(zip(d.values(), d.keys()))
 
-invert_functions = invert_dict(function)
+invertBuiltInFunctions = invert_dict(builtInFunctions)

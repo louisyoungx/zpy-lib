@@ -17,6 +17,10 @@
         {
             "name": "time",
             "zpy": "时间"
+        },
+        {
+            "name": "perf_counter",
+            "zpy": "性能计数器"
         }
     ],
     "args": [
