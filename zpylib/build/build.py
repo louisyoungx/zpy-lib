@@ -1,5 +1,5 @@
 import os
-from zpylib.Compiler import compiler
+from zpylib.compiler import compiler
 
 
 class Build(object):

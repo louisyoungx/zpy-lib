@@ -1,6 +1,11 @@
 import re
-from Grammar import function, grammar, operator
-from Lib import lib
+
+import sys
+
+if ".." not in sys.path: sys.path.insert(0,"..")
+
+from zpylib.Grammar import function, grammar, operator
+from zpylib.Lib import lib
 
 
 def replaceKey(file, key, value, grammarType, target_type):
