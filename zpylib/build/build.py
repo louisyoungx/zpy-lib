@@ -4,12 +4,13 @@ from zpylib.compiler import compiler
 # 传入文件名和目标格式，通过编译器编译后返回
 class Build(object):
 
-    def __init__(self, filename, targetType):
+    def __init__(self, filename, targetType=None):
         self.cwd = os.getcwd()
         self.filename = filename
         self.targetType = targetType
         self.fileType = self.getFileType()
         self.file = self.readFile()
+        self.code = None
         self.build()
 
     def getFileType(self):
@@ -39,5 +40,5 @@ class Build(object):
             elif self.fileType == 'py': self.targetType ='zpy'
             else: raise Exception(f"错误: 文件格式 {self.fileType} 只能是 py 或 zpy")
 
-        result = compiler.run(self.file, self.targetType)
-        return result
+        self.code = compiler.compile(self.file, self.targetType)
+        return self.code
