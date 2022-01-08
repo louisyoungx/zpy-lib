@@ -84,3 +84,11 @@ def invert_dict(d):
 
 py_invert_RESERVED = invert_dict(py_RESERVED)
 zpy_invert_RESERVED = invert_dict(zpy_RESERVED)
+
+py_to_zpy = {}
+zpy_to_py = {}
+for item in py_invert_RESERVED:
+    py_item = py_invert_RESERVED[item]
+    zpy_item = zpy_invert_RESERVED[item]
+    py_to_zpy[py_item] = zpy_item
+    zpy_to_py[zpy_item] = py_item

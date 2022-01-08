@@ -6,28 +6,12 @@ class LibCollection():
     # 根据依赖到库中取出对应的索引
     def map(self, data, targetType):
         libs = self.collect(data)
-        varMap = {}
         for lib_item in libs:
-            libInfo = lib.load(lib_item, targetType)
-            if libInfo is not None:
-                key = libInfo['name']
-                value = libInfo['zpy']
-                if targetType == 'py':
-                    key, value = value, key
-                varMap[key] = value
-                for item in libInfo['functions']:
-                    key = item['name']
-                    value = item['zpy']
-                    if targetType == 'py':
-                        key, value = value, key
-                    varMap[key] = value
-                for item in libInfo['args']:
-                    key = item['name']
-                    value = item['zpy']
-                    if targetType == 'py':
-                        key, value = value, key
-                    varMap[key] = value
-        return varMap
+            libs = lib.load(lib_item, targetType)
+        if targetType == 'py':
+            return libs.zpyMap
+        if targetType == 'zpy':
+            return libs.pyMap
 
     # 依赖收集
     def collect(self, data):
