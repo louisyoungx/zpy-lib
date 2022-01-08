@@ -541,7 +541,7 @@ STANDARD = [
     },
     {
         "name":"random",
-        "zname":"随意",
+        "zname":"随机",
         "filetype":"json",
         "path":"standard/random.json"
     },
@@ -634,6 +634,12 @@ STANDARD = [
         "zname":"copyreg",
         "filetype":"json",
         "path":"standard/copyreg.json"
+    },
+    {
+        "name":"copy",
+        "zname":"拷贝",
+        "filetype":"json",
+        "path":"standard/copy.json"
     },
     {
         "name":"imaplib",

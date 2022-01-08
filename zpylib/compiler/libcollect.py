@@ -7,11 +7,11 @@ class LibCollection():
     def map(self, data, targetType):
         libs = self.collect(data)
         for lib_item in libs:
-            libs = lib.load(lib_item, targetType)
+            lib.load(lib_item, targetType)
         if targetType == 'py':
-            return libs.zpyMap
+            return lib.zpyMap
         if targetType == 'zpy':
-            return libs.pyMap
+            return lib.pyMap
 
     # 依赖收集
     def collect(self, data):

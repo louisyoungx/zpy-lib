@@ -68,7 +68,7 @@
         },
         {
             "name":"copy",
-            "zpy":"副本"
+            "zpy":"拷贝"
         },
         {
             "name":"fromkeys",

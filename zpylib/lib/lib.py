@@ -5,7 +5,7 @@ import json
 class Lib():
 
     def __init__(self, stdlibs, level='warn'):
-        self.level = level # none | log | warn | error
+        self.level = level # none | log | warn | strict
         self.path = self.getPath()
         self.pyLibs = {}
         self.zpyLibs = {}
@@ -99,7 +99,7 @@ class Lib():
             print(f'日志: {msg}')
         elif self.level == 'warn':
             print(f'警告: {msg}')
-        elif self.level == 'error':
+        elif self.level == 'strict':
             raise Exception(f'错误: {msg}')
         else:
             pass

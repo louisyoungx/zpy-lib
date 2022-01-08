@@ -1,3 +1,5 @@
+from .tokenhandler import TokenHandler
+
 # 编译器
 class Compiler(object):
 
