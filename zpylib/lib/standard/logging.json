@@ -1,6 +1,6 @@
 {
     "name":"logging",
-    "zpy":"采运作业",
+    "zpy":"logging",
     "functions":[
         {
             "name":"Filter",

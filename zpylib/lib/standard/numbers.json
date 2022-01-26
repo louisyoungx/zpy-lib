@@ -1,6 +1,6 @@
 {
     "name":"numbers",
-    "zpy":"数字number的复数",
+    "zpy":"numbers",
     "functions":[
         {
             "name":"real",

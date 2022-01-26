@@ -1,6 +1,6 @@
 {
     "name":"curses",
-    "zpy":"诅咒",
+    "zpy":"curses",
     "functions":[
         {
             "name":"isupper",

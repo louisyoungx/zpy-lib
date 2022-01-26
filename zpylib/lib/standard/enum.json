@@ -1,6 +1,6 @@
 {
     "name":"enum",
-    "zpy":"枚举",
+    "zpy":"enum",
     "functions":[
         {
             "name":"IntEnum",

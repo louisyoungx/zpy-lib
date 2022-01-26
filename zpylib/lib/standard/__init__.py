@@ -1,7 +1,7 @@
 STANDARD = [
     {
         "name":"signal",
-        "zname":"信号",
+        "zname":"signal",
         "filetype":"json",
         "path":"standard/signal.json"
     },
@@ -31,7 +31,7 @@ STANDARD = [
     },
     {
         "name":"subprocess",
-        "zname":"子进程",
+        "zname":"subprocess",
         "filetype":"json",
         "path":"standard/subprocess.json"
     },
@@ -61,7 +61,7 @@ STANDARD = [
     },
     {
         "name":"logging",
-        "zname":"采运作业",
+        "zname":"logging",
         "filetype":"json",
         "path":"standard/logging.json"
     },
@@ -79,13 +79,13 @@ STANDARD = [
     },
     {
         "name":"struct",
-        "zname":"结构；结构体；创建构架数组",
+        "zname":"struct",
         "filetype":"json",
         "path":"standard/struct.json"
     },
     {
         "name":"trace",
-        "zname":"痕迹",
+        "zname":"trace",
         "filetype":"json",
         "path":"standard/trace.json"
     },
@@ -97,19 +97,19 @@ STANDARD = [
     },
     {
         "name":"site",
-        "zname":"位置",
+        "zname":"site",
         "filetype":"json",
         "path":"standard/site.json"
     },
     {
         "name":"cmd",
-        "zname":"煤矿管理局CoalMinesDepartment",
+        "zname":"cmd",
         "filetype":"json",
         "path":"standard/cmd.json"
     },
     {
         "name":"csv",
-        "zname":"战斗支援车CombatSupportVehicle",
+        "zname":"csv",
         "filetype":"json",
         "path":"standard/csv.json"
     },
@@ -133,13 +133,13 @@ STANDARD = [
     },
     {
         "name":"shelve",
-        "zname":"放置架子上",
+        "zname":"shelve",
         "filetype":"json",
         "path":"standard/shelve.json"
     },
     {
         "name":"pdb",
-        "zname":"临时区议会",
+        "zname":"pdb",
         "filetype":"json",
         "path":"standard/pdb.json"
     },
@@ -157,7 +157,7 @@ STANDARD = [
     },
     {
         "name":"mailbox",
-        "zname":"邮筒",
+        "zname":"mailbox",
         "filetype":"json",
         "path":"standard/mailbox.json"
     },
@@ -175,7 +175,7 @@ STANDARD = [
     },
     {
         "name":"math",
-        "zname":"数学",
+        "zname":"math",
         "filetype":"json",
         "path":"standard/math.json"
     },
@@ -187,7 +187,7 @@ STANDARD = [
     },
     {
         "name":"traceback",
-        "zname":"Virus回溯病毒",
+        "zname":"traceback",
         "filetype":"json",
         "path":"standard/traceback.json"
     },
@@ -199,7 +199,7 @@ STANDARD = [
     },
     {
         "name":"collections",
-        "zname":"集合物件",
+        "zname":"collections",
         "filetype":"json",
         "path":"standard/collections.json"
     },
@@ -235,7 +235,7 @@ STANDARD = [
     },
     {
         "name":"dis",
-        "zname":"狄斯",
+        "zname":"dis",
         "filetype":"json",
         "path":"standard/dis.json"
     },
@@ -247,7 +247,7 @@ STANDARD = [
     },
     {
         "name":"os",
-        "zname":"骨",
+        "zname":"os",
         "filetype":"json",
         "path":"standard/os.json"
     },
@@ -259,7 +259,7 @@ STANDARD = [
     },
     {
         "name":"token",
-        "zname":"表征",
+        "zname":"token",
         "filetype":"json",
         "path":"standard/token.json"
     },
@@ -283,13 +283,13 @@ STANDARD = [
     },
     {
         "name":"code",
-        "zname":"代码",
+        "zname":"code",
         "filetype":"json",
         "path":"standard/code.json"
     },
     {
         "name":"pty",
-        "zname":"巴拿马城PanamaCity",
+        "zname":"pty",
         "filetype":"json",
         "path":"standard/pty.json"
     },
@@ -301,7 +301,7 @@ STANDARD = [
     },
     {
         "name":"types",
-        "zname":"打字（type的第三人称单数形式）",
+        "zname":"types",
         "filetype":"json",
         "path":"standard/types.json"
     },
@@ -313,7 +313,7 @@ STANDARD = [
     },
     {
         "name":"socket",
-        "zname":"窝",
+        "zname":"socket",
         "filetype":"json",
         "path":"standard/socket.json"
     },
@@ -331,7 +331,7 @@ STANDARD = [
     },
     {
         "name":"chunk",
-        "zname":"大块",
+        "zname":"chunk",
         "filetype":"json",
         "path":"standard/chunk.json"
     },
@@ -355,19 +355,19 @@ STANDARD = [
     },
     {
         "name":"selectors",
-        "zname":"选择者",
+        "zname":"selectors",
         "filetype":"json",
         "path":"standard/selectors.json"
     },
     {
         "name":"codecs",
-        "zname":"编码译码器",
+        "zname":"codecs",
         "filetype":"json",
         "path":"standard/codecs.json"
     },
     {
         "name":"sched",
-        "zname":"无线电固定播送时间",
+        "zname":"sched",
         "filetype":"json",
         "path":"standard/sched.json"
     },
@@ -415,7 +415,7 @@ STANDARD = [
     },
     {
         "name":"enum",
-        "zname":"枚举",
+        "zname":"enum",
         "filetype":"json",
         "path":"standard/enum.json"
     },
@@ -451,7 +451,7 @@ STANDARD = [
     },
     {
         "name":"bisect",
-        "zname":"分成两部份",
+        "zname":"bisect",
         "filetype":"json",
         "path":"standard/bisect.json"
     },
@@ -463,25 +463,25 @@ STANDARD = [
     },
     {
         "name":"locale",
-        "zname":"现场",
+        "zname":"locale",
         "filetype":"json",
         "path":"standard/locale.json"
     },
     {
         "name":"http",
-        "zname":"超文本传输协议",
+        "zname":"http",
         "filetype":"json",
         "path":"standard/http.json"
     },
     {
         "name":"pipes",
-        "zname":"管线",
+        "zname":"pipes",
         "filetype":"json",
         "path":"standard/pipes.json"
     },
     {
         "name":"secrets",
-        "zname":"秘密",
+        "zname":"secrets",
         "filetype":"json",
         "path":"standard/secrets.json"
     },
@@ -493,15 +493,9 @@ STANDARD = [
     },
     {
         "name":"platform",
-        "zname":"站台",
+        "zname":"platform",
         "filetype":"json",
         "path":"standard/platform.json"
-    },
-    {
-        "name":"test",
-        "zname":"测试",
-        "filetype":"json",
-        "path":"standard/test.json"
     },
     {
         "name":"msvcrt",
@@ -523,7 +517,7 @@ STANDARD = [
     },
     {
         "name":"nis",
-        "zname":"网络信息中心",
+        "zname":"nis",
         "filetype":"json",
         "path":"standard/nis.json"
     },
@@ -541,13 +535,13 @@ STANDARD = [
     },
     {
         "name":"random",
-        "zname":"随机",
+        "zname":"random",
         "filetype":"json",
         "path":"standard/random.json"
     },
     {
         "name":"statistics",
-        "zname":"统计学",
+        "zname":"statistics",
         "filetype":"json",
         "path":"standard/statistics.json"
     },
@@ -565,7 +559,7 @@ STANDARD = [
     },
     {
         "name":"numbers",
-        "zname":"数字number的复数",
+        "zname":"numbers",
         "filetype":"json",
         "path":"standard/numbers.json"
     },
@@ -583,7 +577,7 @@ STANDARD = [
     },
     {
         "name":"string",
-        "zname":"线",
+        "zname":"string",
         "filetype":"json",
         "path":"standard/string.json"
     },
@@ -601,13 +595,13 @@ STANDARD = [
     },
     {
         "name":"pwd",
-        "zname":"显示目录命令",
+        "zname":"pwd",
         "filetype":"json",
         "path":"standard/pwd.json"
     },
     {
         "name":"threading",
-        "zname":"穿线",
+        "zname":"threading",
         "filetype":"json",
         "path":"standard/threading.json"
     },
@@ -619,7 +613,7 @@ STANDARD = [
     },
     {
         "name":"ssl",
-        "zname":"软件说明语言",
+        "zname":"ssl",
         "filetype":"json",
         "path":"standard/ssl.json"
     },
@@ -630,16 +624,16 @@ STANDARD = [
         "path":"standard/winreg.json"
     },
     {
+        "name":"time",
+        "zname":"time",
+        "filetype":"json",
+        "path":"standard/time.json"
+    },
+    {
         "name":"copyreg",
         "zname":"copyreg",
         "filetype":"json",
         "path":"standard/copyreg.json"
-    },
-    {
-        "name":"copy",
-        "zname":"拷贝",
-        "filetype":"json",
-        "path":"standard/copy.json"
     },
     {
         "name":"imaplib",
@@ -661,7 +655,7 @@ STANDARD = [
     },
     {
         "name":"queue",
-        "zname":"辫子",
+        "zname":"queue",
         "filetype":"json",
         "path":"standard/queue.json"
     },
@@ -679,7 +673,7 @@ STANDARD = [
     },
     {
         "name":"resource",
-        "zname":"资源",
+        "zname":"resource",
         "filetype":"json",
         "path":"standard/resource.json"
     },
@@ -697,13 +691,13 @@ STANDARD = [
     },
     {
         "name":"wave",
-        "zname":"波",
+        "zname":"wave",
         "filetype":"json",
         "path":"standard/wave.json"
     },
     {
         "name":"io",
-        "zname":"输入输出",
+        "zname":"io",
         "filetype":"json",
         "path":"standard/io.json"
     },
@@ -715,13 +709,13 @@ STANDARD = [
     },
     {
         "name":"gettext",
-        "zname":"获取文本",
+        "zname":"gettext",
         "filetype":"json",
         "path":"standard/gettext.json"
     },
     {
         "name":"decimal",
-        "zname":"十进位的",
+        "zname":"decimal",
         "filetype":"json",
         "path":"standard/decimal.json"
     },
@@ -763,7 +757,7 @@ STANDARD = [
     },
     {
         "name":"operator",
-        "zname":"操作员",
+        "zname":"operator",
         "filetype":"json",
         "path":"standard/operator.json"
     },
@@ -775,13 +769,13 @@ STANDARD = [
     },
     {
         "name":"json",
-        "zname":"JavaScript对象符号JavaScriptSerializedObjectNotation",
+        "zname":"json",
         "filetype":"json",
         "path":"standard/json.json"
     },
     {
         "name":"glob",
-        "zname":"一滴",
+        "zname":"glob",
         "filetype":"json",
         "path":"standard/glob.json"
     },
@@ -793,7 +787,7 @@ STANDARD = [
     },
     {
         "name":"inspect",
-        "zname":"检查",
+        "zname":"inspect",
         "filetype":"json",
         "path":"standard/inspect.json"
     },
@@ -805,7 +799,7 @@ STANDARD = [
     },
     {
         "name":"gzip",
-        "zname":"压缩程序",
+        "zname":"gzip",
         "filetype":"json",
         "path":"standard/gzip.json"
     },
@@ -817,7 +811,7 @@ STANDARD = [
     },
     {
         "name":"turtle",
-        "zname":"海龟",
+        "zname":"turtle",
         "filetype":"json",
         "path":"standard/turtle.json"
     },
@@ -883,13 +877,13 @@ STANDARD = [
     },
     {
         "name":"dbm",
-        "zname":"数据库管理",
+        "zname":"dbm",
         "filetype":"json",
         "path":"standard/dbm.json"
     },
     {
         "name":"crypt",
-        "zname":"土窖",
+        "zname":"crypt",
         "filetype":"json",
         "path":"standard/crypt.json"
     },
@@ -919,7 +913,7 @@ STANDARD = [
     },
     {
         "name":"multiprocessing",
-        "zname":"多重处理",
+        "zname":"multiprocessing",
         "filetype":"json",
         "path":"standard/multiprocessing.json"
     },
@@ -937,7 +931,7 @@ STANDARD = [
     },
     {
         "name":"mmap",
-        "zname":"methylmethacrylatepolymer甲基丙烯酸甲酯聚合体",
+        "zname":"mmap",
         "filetype":"json",
         "path":"standard/mmap.json"
     },
@@ -961,7 +955,7 @@ STANDARD = [
     },
     {
         "name":"cgi",
-        "zname":"计算机生成图象",
+        "zname":"cgi",
         "filetype":"json",
         "path":"standard/cgi.json"
     },
@@ -973,7 +967,7 @@ STANDARD = [
     },
     {
         "name":"ast",
-        "zname":"大西洋标准时间AtlanticStandardTime",
+        "zname":"ast",
         "filetype":"json",
         "path":"standard/ast.json"
     },
@@ -991,7 +985,7 @@ STANDARD = [
     },
     {
         "name":"re",
-        "zname":"关于",
+        "zname":"re",
         "filetype":"json",
         "path":"standard/re.json"
     },
@@ -1003,7 +997,7 @@ STANDARD = [
     },
     {
         "name":"pickle",
-        "zname":"盐卤",
+        "zname":"pickle",
         "filetype":"json",
         "path":"standard/pickle.json"
     },
@@ -1027,7 +1021,7 @@ STANDARD = [
     },
     {
         "name":"posix",
-        "zname":"可移植性操作系统接口",
+        "zname":"posix",
         "filetype":"json",
         "path":"standard/posix.json"
     },
@@ -1039,13 +1033,13 @@ STANDARD = [
     },
     {
         "name":"curses",
-        "zname":"诅咒",
+        "zname":"curses",
         "filetype":"json",
         "path":"standard/curses.json"
     },
     {
         "name":"binhex",
-        "zname":"二一十六进制码文件",
+        "zname":"binhex",
         "filetype":"json",
         "path":"standard/binhex.json"
     },
@@ -1069,13 +1063,13 @@ STANDARD = [
     },
     {
         "name":"profile",
-        "zname":"侧面",
+        "zname":"profile",
         "filetype":"json",
         "path":"standard/profile.json"
     },
     {
         "name":"warnings",
-        "zname":"发出警告",
+        "zname":"warnings",
         "filetype":"json",
         "path":"standard/warnings.json"
     },
@@ -1111,7 +1105,7 @@ STANDARD = [
     },
     {
         "name":"typing",
-        "zname":"打字",
+        "zname":"typing",
         "filetype":"json",
         "path":"standard/typing.json"
     },
@@ -1129,7 +1123,7 @@ STANDARD = [
     },
     {
         "name":"select",
-        "zname":"挑选出来的",
+        "zname":"select",
         "filetype":"json",
         "path":"standard/select.json"
     },

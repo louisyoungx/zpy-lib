@@ -1,6 +1,6 @@
 {
     "name":"trace",
-    "zpy":"痕迹",
+    "zpy":"trace",
     "functions":[
         {
             "name":"--ignore-dir",

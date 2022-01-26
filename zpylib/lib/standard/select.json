@@ -1,6 +1,6 @@
 {
     "name":"select",
-    "zpy":"挑选出来的",
+    "zpy":"select",
     "functions":[
         {
             "name":"flags",

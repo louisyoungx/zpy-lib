@@ -1,6 +1,6 @@
 {
     "name":"locale",
-    "zpy":"现场",
+    "zpy":"locale",
     "functions":[
         {
             "name":"CODESET",

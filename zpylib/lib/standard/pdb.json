@@ -1,6 +1,6 @@
 {
     "name":"pdb",
-    "zpy":"临时区议会",
+    "zpy":"pdb",
     "functions":[
         {
             "name":"retval",

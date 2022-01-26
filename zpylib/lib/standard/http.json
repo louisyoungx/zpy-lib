@@ -1,6 +1,6 @@
 {
     "name":"http",
-    "zpy":"超文本传输协议",
+    "zpy":"http",
     "functions":[
         {
             "name":"HTTPStatus",

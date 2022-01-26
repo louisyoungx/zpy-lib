@@ -1,6 +1,6 @@
 {
     "name":"dbm",
-    "zpy":"数据库管理",
+    "zpy":"dbm",
     "functions":[
         {
             "name":"error",

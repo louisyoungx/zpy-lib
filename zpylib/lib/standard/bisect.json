@@ -1,6 +1,6 @@
 {
     "name":"bisect",
-    "zpy":"分成两部份",
+    "zpy":"bisect",
     "functions":[
         {
             "name":"typecodes",

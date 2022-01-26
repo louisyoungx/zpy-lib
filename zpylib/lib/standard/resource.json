@@ -1,6 +1,6 @@
 {
     "name":"resource",
-    "zpy":"资源",
+    "zpy":"resource",
     "functions":[
         {
             "name":"error",

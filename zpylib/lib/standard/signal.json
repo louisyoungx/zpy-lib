@@ -1,6 +1,6 @@
 {
     "name":"signal",
-    "zpy":"信号",
+    "zpy":"signal",
     "functions":[
         {
             "name":"sigwaitinfo",

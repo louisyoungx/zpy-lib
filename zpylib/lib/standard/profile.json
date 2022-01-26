@@ -1,6 +1,6 @@
 {
     "name":"profile",
-    "zpy":"侧面",
+    "zpy":"profile",
     "functions":[
         {
             "name":"create_stats",

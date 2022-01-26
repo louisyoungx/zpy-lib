@@ -1,6 +1,6 @@
 {
     "name":"crypt",
-    "zpy":"土窖",
+    "zpy":"crypt",
     "functions":[
         {
             "name":"mksalt",

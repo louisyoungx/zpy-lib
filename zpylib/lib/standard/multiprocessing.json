@@ -1,6 +1,6 @@
 {
     "name":"multiprocessing",
-    "zpy":"多重处理",
+    "zpy":"multiprocessing",
     "functions":[
         {
             "name":"close",

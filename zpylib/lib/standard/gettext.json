@@ -1,6 +1,6 @@
 {
     "name":"gettext",
-    "zpy":"获取文本",
+    "zpy":"gettext",
     "functions":[
         {
             "name":"find",

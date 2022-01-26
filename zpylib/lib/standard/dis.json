@@ -1,6 +1,6 @@
 {
     "name":"dis",
-    "zpy":"狄斯",
+    "zpy":"dis",
     "functions":[
         {
             "name":"DICT_MERGE",

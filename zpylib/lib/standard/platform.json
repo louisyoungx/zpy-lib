@@ -1,6 +1,6 @@
 {
     "name":"platform",
-    "zpy":"站台",
+    "zpy":"platform",
     "functions":[
         {
             "name":"EL2NSYNC",

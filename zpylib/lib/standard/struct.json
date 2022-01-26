@@ -1,6 +1,6 @@
 {
     "name":"struct",
-    "zpy":"结构；结构体；创建构架数组",
+    "zpy":"struct",
     "functions":[
         {
             "name":"calcsize",

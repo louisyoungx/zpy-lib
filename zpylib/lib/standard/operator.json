@@ -1,6 +1,6 @@
 {
     "name":"operator",
-    "zpy":"操作员",
+    "zpy":"operator",
     "functions":[
         {
             "name":"not_",

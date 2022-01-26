@@ -1,6 +1,6 @@
 {
     "name":"pickle",
-    "zpy":"盐卤",
+    "zpy":"pickle",
     "functions":[
         {
             "name":"PickleBuffer",

@@ -1,6 +1,6 @@
 {
     "name":"ast",
-    "zpy":"大西洋标准时间AtlanticStandardTime",
+    "zpy":"ast",
     "functions":[
         {
             "name":"Store",

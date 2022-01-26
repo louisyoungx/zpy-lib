@@ -1,6 +1,6 @@
 {
     "name":"io",
-    "zpy":"输入输出",
+    "zpy":"io",
     "functions":[
         {
             "name":"isatty",

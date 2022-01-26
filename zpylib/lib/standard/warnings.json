@@ -1,6 +1,6 @@
 {
     "name":"warnings",
-    "zpy":"发出警告",
+    "zpy":"warnings",
     "functions":[
         {
             "name":"formatwarning",

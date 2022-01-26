@@ -1,6 +1,6 @@
 {
     "name":"json",
-    "zpy":"JavaScript对象符号JavaScriptSerializedObjectNotation",
+    "zpy":"json",
     "functions":[
         {
             "name":"getcaps",

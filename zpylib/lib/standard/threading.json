@@ -1,6 +1,6 @@
 {
     "name":"threading",
-    "zpy":"穿线",
+    "zpy":"threading",
     "functions":[
         {
             "name":"current_thread",

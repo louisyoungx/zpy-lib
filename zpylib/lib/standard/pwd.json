@@ -1,6 +1,6 @@
 {
     "name":"pwd",
-    "zpy":"显示目录命令",
+    "zpy":"pwd",
     "functions":[
         {
             "name":"getspall",

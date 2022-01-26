@@ -1,6 +1,6 @@
 {
     "name":"turtle",
-    "zpy":"海龟",
+    "zpy":"turtle",
     "functions":[
         {
             "name":"mode",

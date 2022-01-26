@@ -1,6 +1,6 @@
 {
     "name":"cgi",
-    "zpy":"计算机生成图象",
+    "zpy":"cgi",
     "functions":[
         {
             "name":"enable",

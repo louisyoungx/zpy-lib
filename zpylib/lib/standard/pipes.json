@@ -1,6 +1,6 @@
 {
     "name":"pipes",
-    "zpy":"管线",
+    "zpy":"pipes",
     "functions":[
         {
             "name":"clone",

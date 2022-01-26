@@ -1,6 +1,6 @@
 {
     "name":"subprocess",
-    "zpy":"子进程",
+    "zpy":"subprocess",
     "functions":[
         {
             "name":"NORMAL_PRIORITY_CLASS",

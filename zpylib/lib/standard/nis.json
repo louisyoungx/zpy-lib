@@ -1,6 +1,6 @@
 {
     "name":"nis",
-    "zpy":"网络信息中心",
+    "zpy":"nis",
     "functions":[
         {
             "name":"openlog",

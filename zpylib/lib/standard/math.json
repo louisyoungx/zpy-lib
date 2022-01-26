@@ -1,6 +1,6 @@
 {
     "name":"math",
-    "zpy":"数学",
+    "zpy":"math",
     "functions":[
         {
             "name":"trunc",

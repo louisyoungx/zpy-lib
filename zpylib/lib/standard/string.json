@@ -1,6 +1,6 @@
 {
     "name":"string",
-    "zpy":"线",
+    "zpy":"string",
     "functions":[
         {
             "name":"capwords",

@@ -1,6 +1,6 @@
 {
     "name":"selectors",
-    "zpy":"选择者",
+    "zpy":"selectors",
     "functions":[
         {
             "name":"DevpollSelector",

@@ -1,6 +1,6 @@
 {
     "name":"mailbox",
-    "zpy":"邮筒",
+    "zpy":"mailbox",
     "functions":[
         {
             "name":"discard",

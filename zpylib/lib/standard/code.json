@@ -1,6 +1,6 @@
 {
     "name":"code",
-    "zpy":"代码",
+    "zpy":"code",
     "functions":[
         {
             "name":"compile_command",

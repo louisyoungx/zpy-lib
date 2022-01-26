@@ -1,6 +1,6 @@
 {
     "name":"os",
-    "zpy":"骨",
+    "zpy":"os",
     "functions":[
         {
             "name":"getpgrp",

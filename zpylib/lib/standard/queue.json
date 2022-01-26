@@ -1,6 +1,6 @@
 {
     "name":"queue",
-    "zpy":"辫子",
+    "zpy":"queue",
     "functions":[
         {
             "name":"get_nowait",

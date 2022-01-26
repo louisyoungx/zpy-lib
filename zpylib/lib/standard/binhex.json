@@ -1,6 +1,6 @@
 {
     "name":"binhex",
-    "zpy":"二一十六进制码文件",
+    "zpy":"binhex",
     "functions":[
         {
             "name":"a2b_hex",

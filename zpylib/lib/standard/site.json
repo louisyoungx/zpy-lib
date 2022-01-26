@@ -1,6 +1,6 @@
 {
     "name":"site",
-    "zpy":"位置",
+    "zpy":"site",
     "functions":[
         {
             "name":"main",

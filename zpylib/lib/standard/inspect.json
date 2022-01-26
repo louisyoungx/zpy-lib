@@ -1,6 +1,6 @@
 {
     "name":"inspect",
-    "zpy":"检查",
+    "zpy":"inspect",
     "functions":[
         {
             "name":"getmro",

@@ -1,6 +1,6 @@
 {
     "name":"codecs",
-    "zpy":"编码译码器",
+    "zpy":"codecs",
     "functions":[
         {
             "name":"BOM_UTF32",

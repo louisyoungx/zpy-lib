@@ -1,6 +1,6 @@
 {
     "name":"posix",
-    "zpy":"可移植性操作系统接口",
+    "zpy":"posix",
     "functions":[
         {
             "name":"getpwuid",

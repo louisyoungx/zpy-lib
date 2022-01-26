@@ -1,6 +1,6 @@
 {
     "name":"socket",
-    "zpy":"窝",
+    "zpy":"socket",
     "functions":[
         {
             "name":"create_server",

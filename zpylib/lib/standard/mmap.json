@@ -1,6 +1,6 @@
 {
     "name":"mmap",
-    "zpy":"methylmethacrylatepolymer甲基丙烯酸甲酯聚合体",
+    "zpy":"mmap",
     "functions":[
         {
             "name":"find",

@@ -1,6 +1,6 @@
 {
     "name":"ssl",
-    "zpy":"软件说明语言",
+    "zpy":"ssl",
     "functions":[
         {
             "name":"verify_client_post_handshake",

@@ -1,6 +1,6 @@
 {
     "name":"statistics",
-    "zpy":"统计学",
+    "zpy":"statistics",
     "functions":[
         {
             "name":"median",

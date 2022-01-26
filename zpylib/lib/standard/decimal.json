@@ -1,6 +1,6 @@
 {
     "name":"decimal",
-    "zpy":"十进位的",
+    "zpy":"decimal",
     "functions":[
         {
             "name":"__floor__",

@@ -1,6 +1,6 @@
 {
     "name":"shelve",
-    "zpy":"放置架子上",
+    "zpy":"shelve",
     "functions":[
         {
             "name":"load",

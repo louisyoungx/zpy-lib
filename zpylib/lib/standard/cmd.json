@@ -1,6 +1,6 @@
 {
     "name":"cmd",
-    "zpy":"煤矿管理局CoalMinesDepartment",
+    "zpy":"cmd",
     "functions":[
         {
             "name":"intro",

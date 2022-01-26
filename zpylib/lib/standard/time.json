@@ -1,6 +1,6 @@
 {
     "name":"time",
-    "zpy":"时间",
+    "zpy":"time",
     "functions":[
         {
             "name":"clock_gettime",

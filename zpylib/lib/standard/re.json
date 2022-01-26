@@ -1,6 +1,6 @@
 {
     "name":"re",
-    "zpy":"关于",
+    "zpy":"re",
     "functions":[
         {
             "name":"flags",

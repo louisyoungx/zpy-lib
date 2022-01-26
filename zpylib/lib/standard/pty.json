@@ -1,6 +1,6 @@
 {
     "name":"pty",
-    "zpy":"巴拿马城PanamaCity",
+    "zpy":"pty",
     "functions":[
         {
             "name":"ioctl",

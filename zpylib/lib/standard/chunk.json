@@ -1,6 +1,6 @@
 {
     "name":"chunk",
-    "zpy":"大块",
+    "zpy":"chunk",
     "functions":[
         {
             "name":"rgb_to_hls",

@@ -1,6 +1,6 @@
 {
     "name":"random",
-    "zpy":"随机",
+    "zpy":"random",
     "functions":[
         {
             "name":"betavariate",
@@ -20,7 +20,7 @@
         },
         {
             "name":"randint",
-            "zpy":"随机数"
+            "zpy":"兰特在t"
         },
         {
             "name":"Random",

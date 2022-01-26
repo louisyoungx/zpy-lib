@@ -1,6 +1,6 @@
 {
     "name":"gzip",
-    "zpy":"压缩程序",
+    "zpy":"gzip",
     "functions":[
         {
             "name":"--best",

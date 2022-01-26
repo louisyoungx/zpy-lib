@@ -1,6 +1,6 @@
 {
     "name":"collections",
-    "zpy":"集合物件",
+    "zpy":"collections",
     "functions":[
         {
             "name":"__missing__",

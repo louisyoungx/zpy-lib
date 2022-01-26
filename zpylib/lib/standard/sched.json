@@ -1,6 +1,6 @@
 {
     "name":"sched",
-    "zpy":"无线电固定播送时间",
+    "zpy":"sched",
     "functions":[
         {
             "name":"queue",

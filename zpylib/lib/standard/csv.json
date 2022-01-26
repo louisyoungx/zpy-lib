@@ -1,6 +1,6 @@
 {
     "name":"csv",
-    "zpy":"战斗支援车CombatSupportVehicle",
+    "zpy":"csv",
     "functions":[
         {
             "name":"QUOTE_ALL",
